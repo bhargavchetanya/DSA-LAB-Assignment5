@@ -18,7 +18,7 @@ public:
     void insertAtBeginning(int value) {
         Node* newNode = new Node{value, head};
         head = newNode;
-        cout << "Inserted " << value << " at the beginning.\n";
+        cout << "Inserted " << value << " at the begvinning.\n";
     }
 
     void insertAtEnd(int value) {
